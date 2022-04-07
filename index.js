@@ -11,5 +11,7 @@ for(x in dogName){
     dogName[x].style.textAlign = "left"
 }
 
-let footer1 = document.querySelector('.footer')
-footer1.style.color = "purple"
+
+let flip = document.getElementsByClassName("img")
+flip.rotate(180)
+
