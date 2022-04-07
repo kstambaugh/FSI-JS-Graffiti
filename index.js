@@ -10,8 +10,3 @@ let dogName = document.querySelectorAll('.dog-name')
 for(x in dogName){
     dogName[x].style.textAlign = "left"
 }
-
-
-let flip = document.getElementsByClassName("img")
-flip.rotate(180)
-
